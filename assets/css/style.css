@@ -36,3 +36,20 @@
 .bg-none{
     background: transparent;
 }
+
+.hero-btm-curve{
+    background: linear-gradient(90deg, rgb(11, 125, 255) 20%, rgb(0, 68, 255) 60%, rgb(76, 17, 185));
+    height: 10vh;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+
+blockquote{
+    border-style: solid;
+    border-width: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: purple;
+    padding-left: 3rem;
+}

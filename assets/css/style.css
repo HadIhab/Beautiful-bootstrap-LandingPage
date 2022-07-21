@@ -5,3 +5,34 @@
 .navbar-brand{
     font-size: 2rem;
 }
+
+.hero-main{
+    height: 70vh;
+}
+
+.bg-gradient{
+    background: linear-gradient(90deg, rgb(11, 125, 255) 20%, rgb(0, 68, 255) 60%, rgb(76, 17, 185));
+}
+
+.hero-img{
+    width: 500px;
+}
+@media screen and (max-width: 1200px) {
+    .hero-img{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .hero-img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-img-col{
+        display: none;
+    }
+}
+
+.bg-none{
+    background: transparent;
+}

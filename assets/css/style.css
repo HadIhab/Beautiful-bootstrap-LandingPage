@@ -62,3 +62,20 @@ blockquote{
 .section-feature .card:active{
     background-color: rgb(219, 219, 219);
 }
+
+.footer{
+    color: white;
+    margin-top: 5rem;
+    background-color: rgb(31, 31, 31);
+    padding: 3rem;
+}
+
+footer a{
+    color: rgb(149, 81, 255);
+
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
